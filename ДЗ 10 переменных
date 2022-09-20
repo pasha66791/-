@@ -1,10 +1,11 @@
+byte wheels;
+short beautySalons;
 int money;
-int bikePrice;
-int bikeAmount;
+uint amountHares;
+long city;
 string welcome;
-bool enoughMoney;
+bool isEnoughMoney;
 char end;
-int age;
-bool lucky;
-int strong;
-int obstacles;
+float rulerLenght;
+double circleRadius;
+
