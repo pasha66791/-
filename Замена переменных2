@@ -1,0 +1,9 @@
+            int age = 52;
+            int money = 3;
+            int age1 = 55;
+            Console.WriteLine("Возраст указан неверно:" + age);
+            Console.WriteLine("Количество денег неверное:" + money);
+            age = money;
+            money = age1 - money;
+            Console.WriteLine("Правильный возраст:" + age);
+            Console.WriteLine("Правильное количество денег:" + money);
