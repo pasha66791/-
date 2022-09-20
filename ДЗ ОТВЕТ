@@ -1,10 +1,10 @@
 int age;
 int city;
-string eat;
+string food;
 
 Console.Write("Как вас зовут:");
 age = Convert.Toint32(Console.ReadLine());
 Console.Write("Город проживания:");
 city = Convert.Toint32(Console.ReadLine());
 Console.Write("Какую еду предпочитаете:");
-string = Convert.ToString(Console.ReadLine());
+food = Convert.ToString(Console.ReadLine());
