@@ -1,0 +1,10 @@
+int money;
+int bikePrice;
+int bikeAmount;
+string welcome;
+bool enoughMoney;
+char end;
+int age;
+bool lucky;
+int strong;
+int obstacles;
