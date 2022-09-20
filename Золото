@@ -1,0 +1,10 @@
+            int gold;
+            int amountCrystals;
+            int crystalPrice = 35;
+            Console.WriteLine("Вы приходите в магазин и хотите купить за своё золото кристаллы. Цена на 1 кристалл составляет:35 золота.");
+            Console.Write("Вы достаете из кармана золото в размере:");
+            gold = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Продавец справшивает " + "сколько кристаллов вы хотите купить:");
+            amountCrystals = Convert.ToInt32(Console.ReadLine());
+            gold -= amountCrystals * crystalPrice;
+            Console.WriteLine($"Вы купили {amountCrystals} кристалла. Золото осталось:{gold}");
