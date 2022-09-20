@@ -1,8 +1,8 @@
             int amountPictures = 52;
-            int picturesRow = 3;
-            int totalRow;
-            int supermeasure;
+            int picturesInRow = 3;
+            int totalRowPictures;
+            int supermeasurePictures;
 
-            totalRow = amountPictures / picturesRow;
-            supermeasure = (amountPictures) - (totalRow * 3);
-            Console.WriteLine($"Всего рядов из картинок {totalRow}, сверхнорма составляет {supermeasure}");
+            totalRowPictures = amountPictures / picturesInRow;
+            supermeasurePictures = amountPictures % picturesInRow;
+            Console.WriteLine($"Всего рядов из картинок {totalRowPictures}, сверхнорма составляет {supermeasurePictures}");
