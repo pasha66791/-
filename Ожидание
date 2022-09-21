@@ -1,0 +1,7 @@
+            int patientAdmissionTime = 10;
+            int numberOfGrandmother;
+            int waitingTime;
+            Console.WriteLine("В поликлинике куча бабушек в очереди в регистратуру.");
+            Console.Write("Введите кол-во бабушек в очереди:");
+            numberOfGrandmother = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Стоять придется {(patientAdmissionTime * numberOfGrandmother)/60} часа и {(patientAdmissionTime * numberOfGrandmother) % 60} минут.");
