@@ -1,0 +1,12 @@
+        {
+            int message;
+            string messageEnd;
+            Console.Write("Ведите число для повтора: ");
+            message = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i <= message; i++)
+            {
+                Console.WriteLine("Ты геймер уже как " + i + " лет.");
+            }
+            Console.WriteLine("Но не переживай, очень скоро ты станешь успешным!");
+        }
