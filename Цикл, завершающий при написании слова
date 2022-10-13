@@ -2,17 +2,13 @@
             bool isWork = true;
             string userInput;
             Console.Write("Напишите тайное слово для выхода:");
+
             while (isWork)
             {
-
                 userInput = Console.ReadLine();
 
                 if (userInput == exit)
                 {
-                    break;
-                }
-                else
-                {
-
+                    isWork = false;
                 }
             }
