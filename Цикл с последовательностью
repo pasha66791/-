@@ -1,0 +1,4 @@
+            for (int order = 5; order <= 96; order+=7)
+            {
+                Console.WriteLine(order);
+            }
