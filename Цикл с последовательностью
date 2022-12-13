@@ -1,10 +1,12 @@
             int growthNumber = 7;
+            int start = 5;
+            int maxValue = 96
 
-            for (int start = 5; start <= 96; start += growthNumber)
+            for (int i = start; i <= maxValue; i += growthNumber)
             {
-                Console.WriteLine(start);
+                Console.WriteLine(i);
             }
             // выбор лег на for по причине того что здесь в условии сразу всё указывается,
-            // а также в отличие от while здесь всё работает и в console.WriteLine(start) выводится именно уже измененное значение,
+            // а также в отличие от while здесь всё работает и в console.WriteLine(i) выводится именно уже измененное значение,
             // а в while почему-то не выводилось, только число "5" было и все 
         }
