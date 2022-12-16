@@ -1,18 +1,18 @@
-Random rand = new Random();
+            // С помощью Random получить число number, которое не больше 100.
+            // Найти сумму всех положительных чисел меньше number (включая число),
+            // которые кратные 3 или 5. (К примеру, это числа 3, 5, 6, 9, 10, 12, 15 и т.д.)
+            Random rand = new Random();
             int number = rand.Next(0, 100);
             int amount = 0;
-            int start = 0;
-            int three = number / 3;
-            int five = number / 5;
 
-            while (start <= number)
+            for (int i = 0; i <= number; i++)
             {
-                if (start % 3 == 0 || start % 5 == 0)
+                if (i % 3 == 0 || i % 5 == 0)
                 {
-                    amount++;
+                    //amount++;
+                    Console.WriteLine(i);
+                    amount += i;
                 }
-                start++;
             }
-        
-            Console.WriteLine("Диапазон, который был задан рандомом от 0 до " + number + ", " +
-                "троек всего - " + three + ", а пятерок - " + five + ". \nИтого сумма кратных 3 или 5 чисел равна " + amount);
+
+                Console.WriteLine("Диапазон: от 0 до " + number + ".\nСумма чисел кратных 3 или 5 равна: " + amount);
