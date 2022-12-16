@@ -1,0 +1,31 @@
+            int UsdToRub = 61;
+            int RubToUsd = 64;
+            int CnyToRub = 9;
+            int RubToCny = 11;
+            int EurToRub = 69;
+            int RubToEur = 72;
+            string number1;
+            int currencyCount;
+            int i = 0;
+            bool number = true;
+
+            Console.Write("Добро пожаловать в конвертер валюты.\nВы можете:\n1) Купить/продать юани\n2) Купить/продать доллары\n3) Купить/продать евро\nНапишите нужный номер: \n");
+            number1 = Convert.ToString(Console.ReadLine());
+            while (number)
+            {
+                switch (number1)
+                {
+                    case "1":
+                        Console.Write("Укажите");
+                        break;
+                    case "2":
+                        Console.Write("Не надо пж");
+                        Console.ReadLine();
+                        break;
+                    case "3":
+                        Console.Write("Ой все");
+                        break;
+                    default:
+                        Console.WriteLine("Вы указали неверное число. Попробуйте снова");
+                        break;
+                }
