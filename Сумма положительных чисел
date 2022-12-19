@@ -1,15 +1,13 @@
-            // С помощью Random получить число number, которое не больше 100.
-            // Найти сумму всех положительных чисел меньше number (включая число),
-            // которые кратные 3 или 5. (К примеру, это числа 3, 5, 6, 9, 10, 12, 15 и т.д.)
             Random rand = new Random();
             int number = rand.Next(0, 100);
             int amount = 0;
+            int multiplesOfThree = 3;
+            int multiplesOfFive = 5;
 
-            for (int i = 0; i <= number; i++)
+            for (int i = amount; i <= number; i++)
             {
-                if (i % 3 == 0 || i % 5 == 0)
+                if (i % multiplesOfThree == 0 || i % multiplesOfFive == 0)
                 {
-                    //amount++;
                     Console.WriteLine(i);
                     amount += i;
                 }
